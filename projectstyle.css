@@ -18,3 +18,8 @@ body {
     background: red;
     color: white;
   }
+  img {
+    position: center;
+    size: 50px;
+
+  }
