@@ -1,15 +1,13 @@
 body {
     text-align: center;
-    background: url("https://i.imgur.com/0ZTRZda.jpg");
+    background: url("http://dash.ga.co/assets/anna-bg.png");
     background-size: cover;
     background-position: center;
-    color: white;
+    color: black;
     font-family: helvetica;
   }
   p {
     font-size: 22px;
-    color: white;
-
   }
   input {
     border: 0;
@@ -19,10 +17,4 @@ body {
   input[type="submit"] {
     background: red;
     color: white;
-  }
-  img {
-    position: center;
-    height: 15%;
-    width: 15%;
-
   }
