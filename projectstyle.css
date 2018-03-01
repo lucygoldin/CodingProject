@@ -8,6 +8,8 @@ body {
   }
   p {
     font-size: 22px;
+    color: white;
+
   }
   input {
     border: 0;
@@ -20,6 +22,7 @@ body {
   }
   img {
     position: center;
-    size: 50px;
+    height: 15%;
+    width: 15%;
 
   }
