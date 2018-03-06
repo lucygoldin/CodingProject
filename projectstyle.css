@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background: url("http://dash.ga.co/assets/anna-bg.png");
+    background: url("https://commons.wikimedia.org/w/index.php?curid=79327");
     background-size: cover;
     background-position: center;
     color: black;
@@ -8,6 +8,8 @@ body {
   }
   p {
     font-size: 22px;
+    color: black;
+
   }
   input {
     border: 0;
@@ -17,4 +19,10 @@ body {
   input[type="submit"] {
     background: red;
     color: white;
+  }
+  img {
+    position: center;
+    height: 15%;
+    width: 15%;
+
   }

@@ -1,0 +1,66 @@
+body {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Broadway_%289071443311%29.jpg/1280px-Broadway_%289071443311%29.jpg");
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center;
+  text-align: center;
+  font-size: 22px;
+  color: darkred;
+  margin-left: 22px;
+  margin-right: 22px;
+  background-color: salmon pink;
+  font-family: helvetica;
+}
+a {
+  text-decoration: underline;
+}
+
+/*div.background {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Broadway_%289071443311%29.jpg/1280px-Broadway_%289071443311%29.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+  }*/
+div.background {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Broadway_%289071443311%29.jpg/1280px-Broadway_%289071443311%29.jpg");
+  background-repeat: repeat;
+  background-color: black;
+  background-position: top;
+}
+  div.transbox {
+    margin: 100px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+  }
+      p {
+        text-align: center;
+        font-size: 22px;
+        color: crimson;
+        margin-left: 22px;
+        margin-right: 22px;
+        background-color: salmon pink;
+        font-family: helvetica;
+      }
+    img {
+      opacity: 0.5;
+      filter: alpha(opacity=50);
+}
+img-circle {
+  position: center;
+}
+div.Navbar  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #dddddd;
+}
+li {
+  display: inline;
+}
+
+/*<!--https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Broadway_%289072763327%29.jpg/1280px-Broadway_%289072763327%29.jpg-->/*
