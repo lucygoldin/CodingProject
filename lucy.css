@@ -1,0 +1,45 @@
+body {
+  background-image: url("https://i.imgur.com/bDoYoyk.jpg");
+  background-size: 100%;
+  background-color: black;
+  text-align: center;
+  font-size: 40;
+  color: black;
+  font-family: helvetica;
+  margin-left: 175px;
+  margin-right: 175px;
+
+}
+
+div.background {
+  background-image: url("https://i.imgur.com/CZcPxz9.jpg");
+
+}
+
+div.transbox {
+  margin: 60px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #ffffff;
+  border: 10px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=70);
+
+}
+
+div.Navbar  {
+  list-style-type: none;
+  padding: 0;
+  position: center;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  font-size: 25;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+  opacity: 1.0;
+
+}
