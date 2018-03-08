@@ -26,6 +26,11 @@ div.background {
   background-repeat: repeat;
   background-color: black;
   background-position: top;
+
+}
+background-image {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
   div.transbox {
     margin: 100px;
@@ -34,6 +39,7 @@ div.background {
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
+
       p {
         text-align: center;
         font-size: 22px;
@@ -43,9 +49,10 @@ div.background {
         background-color: salmon pink;
         font-family: helvetica;
       }
-    img {
-      opacity: 0.5;
-      filter: alpha(opacity=50);
+      img {
+      height: 50%;
+      opacity: 1;
+      filter: alpha(opacity=100);
 }
 img-circle {
   position: center;
