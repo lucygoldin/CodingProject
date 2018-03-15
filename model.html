@@ -9,13 +9,13 @@
 <body>
 
 <x3d width='1000px' height='650px'>
-<scene> <!--play around with scene sizes and try get to fit-->
+<scene>
 
 <viewpoint Id='Front' position='0 0 20' orientation='0 0 0 0' description='camera'></viewpoint>
 <viewpoint Id='Plan' position='0 20 0' orientation='-1.5708 0 0 1.5708' description='camera'></viewpoint>
 <viewpoint Id='End' position='20 0 0' orientation='0 1.5708 0 1.5708' description='camera'></viewpoint>
 
-<!--Proscenium Arch-->
+
 
 	<transform translation='5.59 2.0752 2.2'>
 	<shape>
@@ -47,7 +47,7 @@
 	</shape>
 	</transform>
 
-<!--Stage-->
+
 
 	<transform translation='0 -2 0'>
 	<shape>
@@ -55,7 +55,7 @@
 			<material specularColor='0.125 0.078 0.82'>
 			</material>
 		</appearance>
-		<cylinder DEF='Stagebase' cylinder radius='4' height='2' solid='true'/><!---move whole stage further down and make room on-screen for view options-->
+		<cylinder DEF='Stagebase' cylinder radius='4' height='2' solid='true'/>
 	</shape>
 	</transform>
 
@@ -85,13 +85,11 @@
 			<material specularColor='0.125 0.078 0.82'>
 			</material>
 		</appearance>
-		<box DEF='BackOfStage' size='12.192 2 4' solid='true'/> <!---or 3 decide when put colour in as can't currently tell if can see cylinder at back or not also measure/get measurements for the stage in the music box-->
+		<box DEF='BackOfStage' size='12.192 2 4' solid='true'/>
 	</shape>
 	</transform>
 
-<!--<shape>
-<box DEF='box size='1 5 1' solid='true'/>
-</shape>-->
+
 
 	<transform translation='0 -1 0'>
 	<shape>
@@ -99,9 +97,7 @@
 	</shape>
 	</transform>
 
-<!---group---!><!---group these things together-->
 
-<!--Table-->
 
 	<transform translation='0 0.3 0'>
 	<shape>
@@ -121,7 +117,7 @@
 		</appearance>
 		<cylinder DEF='tabletopsmaller' cylinder radius='0.1' height='0.4' solid='true'/>
 
-<!--<box DEF='tabletopsmaller' box size='0.189 0.4 0.189' solid='true'/>fix z axis-->
+
 
 	</shape>
 	</transform>
@@ -148,15 +144,15 @@
 </group>
 	</transform>
 	<transform translation='0 0 0.8'>
-		<group USE='TableLeg'/><!--frontleft-->
+		<group USE='TableLeg'/>
 	</transform>
 
 	<transform translation='1.32 0 -0.15'>
-		<group USE='TableLeg'/> <!--backright-->
+		<group USE='TableLeg'/>
 	</transform>
 
 	<transform translation='1.5 0 0.87'>
-		<group USE='TableLeg'/> <!--frontright-->
+		<group USE='TableLeg'/>
 	</transform>
 
 	<transform rotation='0 -0.785398 1.5708 1.8'
@@ -179,7 +175,7 @@
 	</shape>
 	</transform>
 
-<!--Plates-->
+
 
 	<transform translation='0.7 0.37 0'>
 	<shape>
@@ -221,7 +217,7 @@
 	</shape>
 	</transform>
 
-<!--Fruit Bowl-->
+
 
 	<transform rotation='0 0 3.14 3.14'
 	translation='0 0.5 0'>
@@ -313,7 +309,7 @@
 	</shape>
 	</transform>
 
-<!--Glasses-->
+
 
 	<transform translation='0.35 0.5 0.45'>
 	<shape>
@@ -356,39 +352,8 @@
 	</shape>
 	</transform>
 
-<!--Cutlery-->
 
-	<transform translation='-0.3 0.37 0.75'>
-	<shape>
-		<appearance>
-			<material diffuseColor='1 0 0'>
-			</material>
-		</appearance>
-		<box DEF='ForkHandle' box size='0.04 0.03 0.2' solid='true'/>
-	</shape>
-	</transform>
 
-	<transform translation='-0.3 0.37 0.6'>
-	<shape>
-		<appearance>
-			<material diffuseColor='1 0 0'>
-			</material>
-		</appearance>
-		<box DEF='Prones' box size='0.009 0.02 0.09' solid='true'/>
-	</shape>
-	</transform>
-
-	<transform translation='-0.316 0.37 0.6'><!--there is a gap between prones and handle also funny looking fork also not sure if inline with handle try sphere/cylinder for curves-->
-	<shape>
-		<appearance>
-			<material diffuseColor='1 0 0'>
-			</material>
-		</appearance>
-		<box USE='Prones'/>
-	</shape>
-	</transform>
-
-<!--Chairs-->
 
 <group DEF='Chair'>
 
@@ -453,7 +418,7 @@
 		</appearance>
 		<cylinder USE='UprightSeatFrame'/>
 	</shape>
-	</transform><!--2.21 -1.8 0 2.27-->
+	</transform>
 
 	<transform rotation='1.5708 0 0 1.5708'
 	translation='1.5 0.2 0'>
@@ -501,15 +466,7 @@
 		<group USE='Chair'/>
 	</transform>
 
-<!--Random-->
 
-<!--<transform translation='-2 0 0'>
-<shape>
-<box DEF='Screen' size='2 5 0.1'/>
-</shape>
-</transform>-->
-
-<!--Wall-->
 
 	<transform translation='0 2.9624 -6.05'>
 	<shape>
@@ -521,7 +478,7 @@
 	</shape>
 	</transform>
 
-<!--Screens-->
+
 
 	<transform translation='2 4 -6.05'>
 	<shape>
@@ -532,7 +489,7 @@
 	</shape>
 	</transform>
 
-<!--Long Screens-->
+
 
 	<transform translation='-3 3 -1'>
 	<shape>
@@ -581,7 +538,7 @@
 			<material diffuseColor='0 0 0'>
 			</material>
 		</appearance>
-		<box USE='HorizontalSideLongScreen'/><!--Long Screen Lines-->
+		<box USE='HorizontalSideLongScreen'/>
 	</shape>
 	</transform>
 
@@ -591,7 +548,7 @@
 			<material diffuseColor='0 0 0'>
 			</material>
 		</appearance>
-		<box USE='HorizontalSideLongScreen'/><!--Long Screen Lines-->
+		<box USE='HorizontalSideLongScreen'/>
 	</shape>
 	</transform>
 
@@ -605,7 +562,7 @@
 	</shape>
 	</transform>
 
-<!--Right Long Screen-->
+
 
 	<transform translation='5 3 -1'>
 	<shape>
@@ -678,7 +635,6 @@
 	</shape>
 	</transform>
 
-<!--Medium Screen-->
 
 	<transform translation='0 4 -3'>
 	<shape>
@@ -731,7 +687,7 @@
 	</shape>
 	</transform>
 
-<!--Long Thin Screen-->
+
 
 	<transform translation='0.5 4 -5'>
 	<shape>
@@ -830,7 +786,7 @@
 	</shape>
 	</transform>
 
-<!--Tree Medium Screen-->
+
 
 	<transform translation='-1 5.375 -4'>
 	<shape>
@@ -921,7 +877,7 @@
 	</shape>
 	</transform>
 
-<!--Small Forward Screen-->
+
 
 	<transform translation='2.5 2 -0.5'>
 	<shape>
@@ -1002,7 +958,7 @@
 	</shape>
 	</transform>
 
-<!--Screens On The Back Wall-->
+
 
 	<transform translation='2.5 2 -6'>
 	<shape>
