@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel='stylesheet' type="text/css" href="projectstyle.css">
+</head>
+
+<body>
+  <div class="Navbar">
+<ul>
+  <li><a href="Project.html">Home</a></li>
+  <li><a href="Lucy.html">Museums</a></li>
+  <li><a href="Catherine.html">Theatres</a></li>
+</ul>
+</div>
+<br>
+<h1 id='title'>New York City</h1>
+<p id="date"></p>
+
+<script>
+d = new Date();
+document.getElementById("date").innerHTML= d.toString();
+</script>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Central_Park_Sunset.jpg/1280px-Central_Park_Sunset.jpg">
+
+<p id='para1'>The City of New York, often called New York City or simply New York, is the most populous city in the United States.
+With an estimated 2016 population of 8,537,673 distributed over a land area of about 302.6 square miles (784 km2),
+New York City is also the most densely populated major city in the United States. Located at the southern tip of the state of New York,
+the city is the center of the New York metropolitan area, one of the most populous urban agglomerations in the world,
+with an estimated 20.2 million people in its 2016 Metropolitan Statistical Area and 23.7 million residents in its Combined Statistical Area.
+A global power city, New York City has been described as the cultural, financial, and media capital of the world,
+and exerts a significant impact upon commerce, entertainment, research, technology, education, politics, and sports.
+The city's fast pace defines the term New York minute. Home to the headquarters of the United Nations,
+New York is an important center for international diplomacy.
+<br>
+</br>
+Situated on one of the world's largest natural harbors, New York City consists of five boroughs,
+each of which is a separate county of New York State. The five boroughs (Brooklyn, Queens, Manhattan, The Bronx, and Staten Island)
+were consolidated into a single city in 1898. The city and its metropolitan area constitute the premier gateway for legal immigration
+to the United States.As many as 800 languages are spoken in New York, making it the most linguistically diverse city in the world.
+New York City is home to more than 3.2 million residents born outside the United States, the largest foreign-born population of
+any city in the world. In 2013, the tri-state New York Metropolitan Statistical Area (MSA) produced a gross metropolitan product (GMP)
+of nearly US$1.4 trillion. If greater New York City were a country, it would have the 12th highest GDP in the world.</p>
+
+<p id='info'>For information about New York check out the <a href="http://www1.nyc.gov/">New York City Government</a></p>
+<p>
+<a href="https://www.facebook.com/nycmayorsoffice/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/nycgov?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
+</p>
+<p>
+<button type="button"
+onclick="document.getElementById('para1').style.fontSize='35px'">Bigger Font</button>
+
+<button type="button"
+onclick="document.getElementById('para1').style.fontSize='16px'">Smaller Font</button>
+
+</p>
+</body>
+</html>
